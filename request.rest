@@ -1,2 +1,13 @@
 ### all comments
 GET http://localhost:3000/users/usernames
+
+### new username
+
+Post http://localhost:3000/users/newuser 
+Content-Type: application/json
+
+{
+      "username": "Jack"
+       
+
+    }

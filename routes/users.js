@@ -21,6 +21,9 @@ const postgres_controller = require("../controllers/postgresController.js");
 // GET all posts.
 router.get("/usernames/", postgres_controller.all_usernames_get);
 
+// post new username
+
+router.post("/newuser/", postgres_controller.add_username);
 
 
 module.exports = router;
